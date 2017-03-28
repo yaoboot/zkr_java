@@ -40,7 +40,7 @@ public interface CountryMapper{
 //	@Delete("delete from country where id = #{id}")
 	void deleteByPrimaryKey(int id);
 	
-//	@Update("update country")tijiao
+//	@Update("update country")tijiao22
 	void updateByPrimaryKey(Country country);
 	
 	void insert(Country country);
